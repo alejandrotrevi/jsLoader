@@ -1,0 +1,23 @@
+{
+  "name": "JS Loader",
+  "version": "1.0",
+  "description": "Disable or enable javascript in a domain & subdomains.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "contentSettings"
+  ],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+  "page_action": {
+    "default_icon": {
+      "16": "images/switch_on.png",
+      "24": "images/switch_on.png",
+      "32": "images/switch_on.png"
+    },
+    "default_title": "JS Loader"
+  },
+  "manifest_version": 2
+}
